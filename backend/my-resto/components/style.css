@@ -1,0 +1,25 @@
+.stylediv {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.exemple:hover {
+    background: #b3b7bc;
+}
+
+.stylepop {
+    position: absolute;
+    max-width: 100%;
+}
+
+.containerst {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #f2f3f4;
+    height: 580px;
+
+}

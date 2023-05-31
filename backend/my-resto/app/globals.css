@@ -1,0 +1,125 @@
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+
+  --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+  --secondary-glow: linear-gradient(to bottom right,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3));
+
+  --tile-start-rgb: 2, 13, 46;
+  --tile-end-rgb: 2, 5, 19;
+  --tile-border: conic-gradient(#ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80);
+
+  --callout-rgb: 20, 20, 20;
+  --callout-border-rgb: 108, 108, 108;
+  --card-rgb: 100, 100, 100;
+  --card-border-rgb: 200, 200, 200;
+  --pink-glow: linear-gradient(to bottom right,
+      rgba(182, 50, 89, 0.795),
+      rgba(196, 84, 158, 0.5),
+      rgba(226, 137, 207, 0.3));
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: #f2cae3;
+  background: #2b2727;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+.user{
+  font-size: 20px;
+}
+.appBar {
+  background-color: #a58c85;
+  color: #f2d2ca;
+}
+.appBarHeight
+{
+ height: 70px;
+}
+.ffasc{
+  font-family: 'Amatic SC';
+  
+}
+.appBarff {
+  font-family: 'Amatic SC';
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.4;
+
+}
+
+.text {
+  font-family: "Delicious Handrawn";
+}
+
+.kleeone {
+  font-family: "Klee One";
+}
+
+.price {
+  color: #565357;
+}
+
+.cat {
+  color: #f07b7b;
+  font-size: 18px;
+}
+
+.prod-img {
+  border-radius: 20%;
+}
+.color-desgin-prod{
+  color: #d44040;
+}
+.love {
+  margin-left: 350px;
+}
+.red{
+  color: #d44040;
+}
+.card-details{
+  margin-top: 120px;
+}
+
+.bg{
+  background-color: #eee;
+}
+.shoppingcart{
+  width: 400px;
+}
